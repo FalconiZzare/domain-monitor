@@ -1,0 +1,20 @@
+{
+  "name": "domain-monitor",
+  "version": "1.0.0",
+  "description": "Domain Drop Prediction",
+  "license": "MIT",
+  "author": "FalconiZzare",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node tests/test-available.js",
+    "format:write": "prettier --write \"./**/*.{js,ts,mdx,md,json,mjs,cjs}\" --config .prettierrc"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "prettier": "^3.7.4",
+    "whoiser": "^2.0.0-beta.10"
+  }
+}
