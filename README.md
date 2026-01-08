@@ -39,7 +39,9 @@ Create a `.env` file:
 
 ```env
 DOMAIN=yourdomain.com
-TEST_DOMAIN=testdomain.com
+
+# Domain for system test mode
+TEST_DOMAIN="example.com"
 
 # Discord
 DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxxx"
@@ -47,9 +49,6 @@ DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/xxxx"
 # Telegram
 TELEGRAM_BOT_TOKEN="your_bot_token"
 TELEGRAM_CHAT_ID="your_chat_id"
-
-# Domain for system test mode
-TEST_DOMAIN="example.com"
 
 # Retry settings
 MAX_RETRIES=4
